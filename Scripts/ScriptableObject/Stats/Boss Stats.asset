@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc60e27255a30ba4abd7a9cd90edd7db, type: 3}
+  m_Name: Boss Stats
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  lookRange: 40
+  lookShellRange: 40
+  grabShellRange: 40
+  ShootRange: 20
+  lookSphereCastRadius: 1
+  WaveCooldown: 30
+  GullCooldown: 30
+  attackRange: 1
+  attackRate: 1
+  attackForce: 15
+  attackDamage: 50
+  searchDuration: 4
+  searchTurnSpeed: 120
+  clicked: 1
+  HP: 3
+  SumNbr: 4
+  SummPrefab: {fileID: 1946386724552614, guid: fa09a2e7db98d75428052305aeca92da, type: 2}
